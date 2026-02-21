@@ -16,8 +16,7 @@
 #define DHTPIN 2
 #define DHTTYPE DHT11
 
-// TODO 3:
-// Create a DHT object using the defined pin and sensor type
+DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
 
