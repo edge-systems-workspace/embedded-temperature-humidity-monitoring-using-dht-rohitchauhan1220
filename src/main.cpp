@@ -14,10 +14,7 @@
 #include <DHT.h>
 
 #define DHTPIN 2
-
-
-// TODO 2:
-// Define the DHT sensor type (DHT11)
+#define DHTTYPE DHT11
 
 // TODO 3:
 // Create a DHT object using the defined pin and sensor type
